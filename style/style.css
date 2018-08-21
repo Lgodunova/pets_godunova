@@ -463,7 +463,6 @@ header {
 
 .section4 {
 	display: inline-flex;
- 	flex-wrap: wrap;
 	background-image: url(../img/backgroun_pattern.png);
 	background-repeat: no-repeat;
 	width: 1024px;
@@ -652,6 +651,16 @@ header {
 	margin-left: 10px;
 }
 
+.blog-more__second {
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: -10px -5px 60px -12px;
+	width: 220px;
+	height: 290px;
+	margin-left: 10px;
+}
+
 .section4 .col-3 img {
 	border-radius: 10px 10px 0 0;
 	border: none;
@@ -687,7 +696,7 @@ header {
 	margin-left: 15px;
 }
 .read-right__second {
-	display: inline-block;
+	display: inline-flex;
 }
 
 
