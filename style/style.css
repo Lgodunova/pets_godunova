@@ -575,7 +575,7 @@ header {
 
 .section4 .col-2 {
  margin-left: 45px;
- display: inline-block;
+ margin-right: 10px;
  margin-bottom: 100px;
  vertical-align: top;
  background-color: #fff;
@@ -584,7 +584,7 @@ header {
  height: 290px;
  box-shadow: -10px -5px 60px -12px;
  border: none;
-
+ display: inline-block;
 }
 
 .section4 .col-2 img {
@@ -602,10 +602,9 @@ header {
 	width: 193px;
 }
 
-.blog-read {
+.blog-article__first {
 	text-decoration: none;
 	color: #510fad; 
-	margin-left: 15px;
 	font-family: "Fira Sans", sans-serif;
 	font-size: 14px;
 	display: -webkit-inline-flex;
@@ -615,11 +614,22 @@ header {
 	display: inline-flex;
 }
 
-.blog-arrow {
+.read-left {
 	display: inline-block;
 }
 
-.arrow-next-1 {
+.blog-arrow__first {
+	display: inline-block;
+}
+
+.blog-read__first {
+	margin-left: 15px;
+}
+
+.read-right {
+	display: inline-block;
+}
+.arrow_next_png {
 	display: inline-flex; 
 	vertical-align: middle;
 	background-image: url(../img/sprite/sprite.png); 
@@ -629,24 +639,26 @@ header {
 	height: 14px;}
 }
 
-.secction4 .blog-more2 {
-	margin-left: 45px;
- display: inline-block;
- margin-bottom: 100px;
- vertical-align: top;
- background-color: #fff;
- border-radius: 10px;
- width: 220px;
- height: 290px;
- box-shadow: -10px -5px 60px -12px;
- border: none;
+.section4 .col-3 {
+	display: inline-block;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 220px;
+	height: 290px;
+	box-shadow: -10px -5px 60px -12px;
+	vertical-align: top;
+	border: none;
+	margin-bottom: 100px;
+	margin-left: 10px;
 }
 
-.section4 .col-3 .blog-article {
-
+.section4 .col-3 img {
+	border-radius: 10px 10px 0 0;
+	border: none;
+	width: 220px;
 }
 
-.section4 .col-3 .blog-about {
+.blog-about__second {
 	font-size: 16px;	
 	color: #333333;
 	line-height: 20px;
@@ -655,11 +667,29 @@ header {
 	width: 193px;
 }
 
-.section4 .col-3 img {
-	border-radius: 10px 10px 0 0;
-	border: none;
-	width: 220px;
+.blog-article__second {
+	text-decoration: none;
+	color: #510fad; 
+	font-family: "Fira Sans", sans-serif;
+	font-size: 14px;
+	display: inline-block;
 }
+
+.read-left__second {
+	display: inline-block;
+}
+
+.blog-arrow__second {
+	display: inline-block;
+}
+
+.blog-read__second {
+	margin-left: 15px;
+}
+.read-right__second {
+	display: inline-block;
+}
+
 
 .section5 {
 	margin: 0px 0 115px 0px;
